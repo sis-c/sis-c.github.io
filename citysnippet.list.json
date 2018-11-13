@@ -1,0 +1,542 @@
+[
+    {
+        "id": 2763586,
+        "name": "Tirol",
+        "country": "AT",
+        "coord": {
+            "lon": 11.33333,
+            "lat": 47.25
+        }
+    },
+    {
+        "id": 2775219,
+        "name": "Politischer Bezirk Innsbruck",
+        "country": "AT",
+        "coord": {
+            "lon": 11.33333,
+            "lat": 47.200001
+        }
+    },
+    {
+        "id": 7873620,
+        "name": "Schönberg im Stubaital",
+        "country": "AT",
+        "coord": {
+            "lon": 11.40591,
+            "lat": 47.183891
+        }
+    },
+    {
+        "id": 2765715,
+        "name": "Schoenberg im Stubaital",
+        "country": "AT",
+        "coord": {
+            "lon": 11.41667,
+            "lat": 47.183331
+        }
+    },
+    {
+        "id": 2775019,
+        "name": "Politischer Bezirk Judenburg",
+        "country": "AT",
+        "coord": {
+            "lon": 14.53333,
+            "lat": 47.25
+        }
+    },
+    {
+        "id": 7872391,
+        "name": "Zeltweg",
+        "country": "AT",
+        "coord": {
+            "lon": 14.74418,
+            "lat": 47.187279
+        }
+    },
+    {
+        "id": 2760610,
+        "name": "Zeltweg",
+        "country": "AT",
+        "coord": {
+            "lon": 14.75,
+            "lat": 47.183331
+        }
+    },
+    {
+        "id": 3335248,
+        "name": "Schöckl",
+        "country": "AT",
+        "coord": {
+            "lon": 15.45,
+            "lat": 47.200001
+        }
+    },
+    {
+        "id": 2778959,
+        "name": "Galmist",
+        "country": "AT",
+        "coord": {
+            "lon": 9.58306,
+            "lat": 47.216671
+        }
+    },
+    {
+        "id": 6458847,
+        "name": "Bezirk Horgen",
+        "country": "CH",
+        "coord": {
+            "lon": 8.59702,
+            "lat": 47.257671
+        }
+    },
+    {
+        "id": 7286894,
+        "name": "Richterswil",
+        "country": "CH",
+        "coord": {
+            "lon": 8.68668,
+            "lat": 47.200771
+        }
+    },
+    {
+        "id": 6292928,
+        "name": "Mülenen",
+        "country": "CH",
+        "coord": {
+            "lon": 8.69815,
+            "lat": 47.216331
+        }
+    },
+    {
+        "id": 3042925,
+        "name": "Veszprém megye",
+        "country": "HU",
+        "coord": {
+            "lon": 17.66667,
+            "lat": 47.166672
+        }
+    },
+    {
+        "id": 3050053,
+        "name": "Kiscsősz",
+        "country": "HU",
+        "coord": {
+            "lon": 17.28006,
+            "lat": 47.195641
+        }
+    },
+    {
+        "id": 3050052,
+        "name": "Kiscsőszi Tanya",
+        "country": "HU",
+        "coord": {
+            "lon": 17.283331,
+            "lat": 47.200001
+        }
+    },
+    {
+        "id": 2659702,
+        "name": "Bezirk Meilen",
+        "country": "CH",
+        "coord": {
+            "lon": 8.63333,
+            "lat": 47.283329
+        }
+    },
+    {
+        "id": 7287211,
+        "name": "Stäfa",
+        "country": "CH",
+        "coord": {
+            "lon": 8.73372,
+            "lat": 47.24649
+        }
+    },
+    {
+        "id": 6293608,
+        "name": "Dorf",
+        "country": "CH",
+        "coord": {
+            "lon": 8.73999,
+            "lat": 47.237148
+        }
+    },
+    {
+        "id": 2661876,
+        "name": "Kanton Aargau",
+        "country": "CH",
+        "coord": {
+            "lon": 8.16667,
+            "lat": 47.333328
+        }
+    },
+    {
+        "id": 6458902,
+        "name": "Bezirk Muri",
+        "country": "CH",
+        "coord": {
+            "lon": 8.35362,
+            "lat": 47.252331
+        }
+    },
+    {
+        "id": 7286570,
+        "name": "Mühlau",
+        "country": "CH",
+        "coord": {
+            "lon": 8.38887,
+            "lat": 47.234711
+        }
+    },
+    {
+        "id": 2659563,
+        "name": "Mühlau",
+        "country": "CH",
+        "coord": {
+            "lon": 8.38965,
+            "lat": 47.23035
+        }
+    },
+    {
+        "id": 5059489,
+        "name": "Griggs County",
+        "country": "US",
+        "coord": {
+            "lon": -98.219818,
+            "lat": 47.433331
+        }
+    },
+    {
+        "id": 5059925,
+        "name": "Karnak",
+        "country": "US",
+        "coord": {
+            "lon": -98.064262,
+            "lat": 47.280819
+        }
+    },
+    {
+        "id": 3324822,
+        "name": "Hinteralm",
+        "country": "AT",
+        "coord": {
+            "lon": 14.36694,
+            "lat": 47.253059
+        }
+    },
+    {
+        "id": 2778580,
+        "name": "Giesingen",
+        "country": "AT",
+        "coord": {
+            "lon": 9.6,
+            "lat": 47.26667
+        }
+    },
+    {
+        "id": 5799783,
+        "name": "King County",
+        "country": "US",
+        "coord": {
+            "lon": -121.817886,
+            "lat": 47.466492
+        }
+    },
+    {
+        "id": 7713975,
+        "name": "Palisades Mobile Home Estates",
+        "country": "US",
+        "coord": {
+            "lon": -122.179482,
+            "lat": 47.284679
+        }
+    },
+    {
+        "id": 2988289,
+        "name": "Région Pays de la Loire",
+        "country": "FR",
+        "coord": {
+            "lon": -1,
+            "lat": 47.5
+        }
+    },
+    {
+        "id": 2996663,
+        "name": "Département de Maine-et-Loire",
+        "country": "FR",
+        "coord": {
+            "lon": -0.33333,
+            "lat": 47.5
+        }
+    },
+    {
+        "id": 6458746,
+        "name": "Bezirk Zofingen",
+        "country": "CH",
+        "coord": {
+            "lon": 7.95697,
+            "lat": 47.288639
+        }
+    },
+    {
+        "id": 7287639,
+        "name": "Zofingen",
+        "country": "CH",
+        "coord": {
+            "lon": 7.96329,
+            "lat": 47.288849
+        }
+    },
+    {
+        "id": 2657915,
+        "name": "Zofingen",
+        "country": "CH",
+        "coord": {
+            "lon": 7.94586,
+            "lat": 47.287788
+        }
+    },
+    {
+        "id": 4989617,
+        "name": "Copper Harbor",
+        "country": "US",
+        "coord": {
+            "lon": -87.888443,
+            "lat": 47.468788
+        }
+    },
+    {
+        "id": 7873622,
+        "name": "Hall in Tirol",
+        "country": "AT",
+        "coord": {
+            "lon": 11.50225,
+            "lat": 47.281212
+        }
+    },
+    {
+        "id": 2764958,
+        "name": "Hall in Tirol",
+        "country": "AT",
+        "coord": {
+            "lon": 11.51667,
+            "lat": 47.283329
+        }
+    },
+    {
+        "id": 2779698,
+        "name": "Felben",
+        "country": "AT",
+        "coord": {
+            "lon": 12.48333,
+            "lat": 47.283329
+        }
+    },
+    {
+        "id": 6458797,
+        "name": "Bezirk Hinwil",
+        "country": "CH",
+        "coord": {
+            "lon": 8.83431,
+            "lat": 47.296459
+        }
+    },
+    {
+        "id": 7286087,
+        "name": "Hinwil",
+        "country": "CH",
+        "coord": {
+            "lon": 8.85275,
+            "lat": 47.301491
+        }
+    },
+    {
+        "id": 6292384,
+        "name": "Ober-Orn",
+        "country": "CH",
+        "coord": {
+            "lon": 8.88374,
+            "lat": 47.289959
+        }
+    },
+    {
+        "id": 2975757,
+        "name": "Arrondissement de Saumur",
+        "country": "FR",
+        "coord": {
+            "lon": -0.25,
+            "lat": 47.333328
+        }
+    },
+    {
+        "id": 6435231,
+        "name": "Louerre",
+        "country": "FR",
+        "coord": {
+            "lon": -0.33333,
+            "lat": 47.299999
+        }
+    },
+    {
+        "id": 2997451,
+        "name": "Louerre",
+        "country": "FR",
+        "coord": {
+            "lon": -0.32364,
+            "lat": 47.29612
+        }
+    },
+    {
+        "id": 7286733,
+        "name": "Oftringen",
+        "country": "CH",
+        "coord": {
+            "lon": 7.93896,
+            "lat": 47.313358
+        }
+    },
+    {
+        "id": 7669679,
+        "name": "Küngoldingen",
+        "country": "CH",
+        "coord": {
+            "lon": 7.94325,
+            "lat": 47.308739
+        }
+    },
+    {
+        "id": 2772479,
+        "name": "Politischer Bezirk Liezen",
+        "country": "AT",
+        "coord": {
+            "lon": 14.23333,
+            "lat": 47.5
+        }
+    },
+    {
+        "id": 7872451,
+        "name": "Sankt Nikolai im Sölktal",
+        "country": "AT",
+        "coord": {
+            "lon": 14.03987,
+            "lat": 47.325142
+        }
+    },
+    {
+        "id": 2766484,
+        "name": "Sankt Nikolai im Solktal",
+        "country": "AT",
+        "coord": {
+            "lon": 14.05,
+            "lat": 47.316669
+        }
+    },
+    {
+        "id": 5062211,
+        "name": "Traill County",
+        "country": "US",
+        "coord": {
+            "lon": -97.16703,
+            "lat": 47.444431
+        }
+    },
+    {
+        "id": 5061036,
+        "name": "Preston",
+        "country": "US",
+        "coord": {
+            "lon": -97.218697,
+            "lat": 47.312199
+        }
+    },
+    {
+        "id": 5021977,
+        "name": "Cook County",
+        "country": "US",
+        "coord": {
+            "lon": -90.55011,
+            "lat": 47.916561
+        }
+    },
+    {
+        "id": 5050174,
+        "name": "Tofte",
+        "country": "US",
+        "coord": {
+            "lon": -90.836258,
+            "lat": 47.573792
+        }
+    },
+    {
+        "id": 2972190,
+        "name": "Arrondissement de Tours",
+        "country": "FR",
+        "coord": {
+            "lon": 0.66667,
+            "lat": 47.416672
+        }
+    },
+    {
+        "id": 6433100,
+        "name": "Saint-Avertin",
+        "country": "FR",
+        "coord": {
+            "lon": 0.73333,
+            "lat": 47.366669
+        }
+    },
+    {
+        "id": 2981512,
+        "name": "Saint-Avertin",
+        "country": "FR",
+        "coord": {
+            "lon": 0.73993,
+            "lat": 47.363571
+        }
+    },
+    {
+        "id": 5021535,
+        "name": "Clearwater County",
+        "country": "US",
+        "coord": {
+            "lon": -95.366959,
+            "lat": 47.56662
+        }
+    },
+    {
+        "id": 5018226,
+        "name": "Big Bear Landing",
+        "country": "US",
+        "coord": {
+            "lon": -95.476967,
+            "lat": 47.33662
+        }
+    },
+    {
+        "id": 6458774,
+        "name": "Bezirk Bremgarten",
+        "country": "CH",
+        "coord": {
+            "lon": 8.33343,
+            "lat": 47.34927
+        }
+    },
+    {
+        "id": 7285208,
+        "name": "Berikon",
+        "country": "CH",
+        "coord": {
+            "lon": 8.38375,
+            "lat": 47.353851
+        }
+    },
+    {
+        "id": 7669789,
+        "name": "Mutschellen",
+        "country": "CH",
+        "coord": {
+            "lon": 8.36789,
+            "lat": 47.360439
+        }
+    }
+]

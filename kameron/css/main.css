@@ -1,0 +1,47 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header,
+footer {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+header {
+    padding: 1.5rem;
+}
+
+h1 img {
+    margin: 10px;
+    border: 1px solid #000;
+    background-color: red;
+}
+
+h1 {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 0.10rem solid black;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+footer .lastupdated {
+    text-align: center;
+    font-size: 0.9rem;
+    color: yellow;
+    border-bottom: 1px solid yellowgreen;
+}

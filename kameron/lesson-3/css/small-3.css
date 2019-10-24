@@ -1,0 +1,132 @@
+header {
+    font-family: 'Be Vietnam', sans-serif;
+    padding: 1.5rem;
+}
+
+main,
+footer {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: auto;
+    max-width: 1000px;
+}
+
+
+header,
+footer {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #36454f;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav a:hover {
+    background-color: #bbb;
+    color: #36454f;
+}
+
+.active {
+    color: yellow;
+}
+
+footer .lastupdated3 {
+    text-align: center;
+    font-size: 0.9rem;
+    color: yellow;
+    border-bottom: 1px solid yellowgreen;
+}
+
+h3 {
+    background-color: red;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.black {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+.white1 {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.white2 {
+    color: white;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 0.95rem;
+}
+
+.yellow2 {
+    color: yellow;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.yellow1 {
+    color: yellow;
+    font-size: 0.9rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+section {
+    background-color: lightgrey;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+section img {
+    box-shadow: 0 0 30px #333;
+    width: 100%;
+    height: auto;
+}
+
+.scroll {
+    width: auto;
+    height: 650px;
+    overflow: scroll;
+}

@@ -3,7 +3,7 @@ body{
   margin:auto;
 }
 body img[data-src] {
-	filter: blur(0.2em);
+	filter: blur(5em);
 }
 body img {
 	filter: blur(0em);

@@ -7,5 +7,5 @@ body img[data-src] {
 }
 body img {
 	filter: blur(0em);
-	transition: filter 1s;
+	transition: filter 10s;
 }

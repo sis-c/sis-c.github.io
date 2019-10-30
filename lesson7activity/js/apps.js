@@ -17,7 +17,7 @@ const imageOptions = {
 const imgObserver = new IntersectionObserver((items, observer) => {
   items.forEach(item => {
     if (!item.isIntersecting) {
-      item.removeAttribute("data-src");
+      console.log("foop " + item);
       return;
     }
     else {

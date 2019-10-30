@@ -3,11 +3,11 @@ body{
   margin:auto;
 }
 body img[data-src] {
-  filter: blur(0rem);
+  filter: blur(.5rem);
   transition: filter 1s;
 }
 
 body img {
-  filter: blur(5em);
+  filter: blur(0em);
   
 }

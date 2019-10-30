@@ -1,0 +1,13 @@
+body{
+  max-width:90%;
+  margin:auto;
+}
+body img[data-src] {
+  filter: blur(0rem);
+  transition: filter 1s;
+}
+
+body img {
+  filter: blur(5em);
+  
+}

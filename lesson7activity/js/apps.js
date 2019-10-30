@@ -17,12 +17,13 @@ const imageOptions = {
 const imgObserver = new IntersectionObserver((items, observer) => {
   items.forEach(item => {
     if (!item.isIntersecting) {
+      item.removeAttribute("data-src");
       return;
     }
     else {
       preloadImage(item.target);
       observer.unobserve(item.target);
-      item.removeAttribute("data-src");
+
     }
   });
 }, imageOptions);

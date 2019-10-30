@@ -7,7 +7,7 @@ function preloadImage(img) {
     return;
   }
   img.src = src;
-  img.removeAttribute("data-src");
+
 }
 const imageOptions = {
   threshold: 0,
@@ -22,6 +22,7 @@ const imgObserver = new IntersectionObserver((items, observer) => {
     else {
       preloadImage(item.target);
       observer.unobserve(item.target);
+      item.removeAttribute("data-src");
     }
   });
 }, imageOptions);

@@ -14,6 +14,7 @@ header {
     justify-content: space-between;
     margin: 0 auto;
     border-bottom: 2px solid #CC0000;
+    flex-direction: row;
     }
 
     .logo {
@@ -44,10 +45,10 @@ header {
         font-size: 1rem;
     }
 
-    .social {
+    /*.social {
         margin-right: 1.5rem;
         max-width: 20px;
-    }
+    }*/
 
     .imgShadow:hover {
         box-shadow: 0 0 50px #333;

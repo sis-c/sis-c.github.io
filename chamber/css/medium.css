@@ -16,7 +16,9 @@
     header{
         flex-direction: row;
     }
-
+    .social {
+        max-width: 20px;
+    }
     .spotlights {
         display: flex;
         flex-flow: row wrap;

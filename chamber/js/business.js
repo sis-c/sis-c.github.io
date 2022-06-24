@@ -1,6 +1,5 @@
-const chamberBiz =
-  'data.json';
-const cards = document.querySelector('.cards');
+const chamberBiz = 'https://sis-c.github.io/chamber/js/data.json';
+const cards = document.querySelector('#cards');
 
 fetch(chamberBiz)
   .then(function (response) {

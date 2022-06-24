@@ -266,6 +266,10 @@ section {
 	margin: 0.1rem;
 }
 
+.grid section {
+    min-height: 400px;
+}
+
 .list div {
 	flex-direction: row;
 	justify-content: left;

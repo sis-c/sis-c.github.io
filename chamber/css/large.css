@@ -13,10 +13,10 @@
         width: 100%;
     }
     
-    #cards {
+   /* #cards {
         grid-template-columns: 1fr 2fr 1fr;
 
-    }
+    }*/ 
     .headings h1 {
         font-size: 2rem;
         margin: 0;

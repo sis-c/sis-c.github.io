@@ -229,7 +229,7 @@ section {
 
 section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
+	padding: 15px;
 	background-color: #4ba3c3;
 }
 
@@ -239,7 +239,7 @@ section {
 
 #cards {
     
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     align-items: center;
 }
 
@@ -267,7 +267,11 @@ section {
 }
 
 .grid section {
-    min-height: 400px;
+    min-height: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .list div {

@@ -1,4 +1,4 @@
-const chamberBiz ='https://raw.githubusercontent.com/sis-c/sis-c.github.io/master/chamber/js/data.json?token=GHSAT0AAAAAABVVIH7DB4UOTTDLZ4CHWXT6YVVPCSA';
+const chamberBiz ='https://raw.githubusercontent.com/spensnerd/wdd230/master/chamber/js/data.json';
 const cards = document.querySelector('#cards');
 
 fetch(chamberBiz)
@@ -33,23 +33,23 @@ function displayMembers(member) {
   card.appendChild(address);
   card.appendChild(site);
 
-  document.querySelector('div.cards').appendChild(card);
+  cards.appendChild(card);
 }
 
 // grid or list button
 const gridbutton = document.querySelector('#grid:not(header)');
 const listbutton = document.querySelector('#list:not(header)');
-const display = document.querySelector('#cards');
+//const display = document.querySelector('#cards');
 
 gridbutton.addEventListener('click', () => {
   // example using arrow function
-  display.classList.add('grid');
-  display.classList.remove('list');
+  cards.classList.add('grid');
+  cards.classList.remove('list');
 });
 
 listbutton.addEventListener('click', showList);
 
 function showList() {
-  display.classList.add('list');
-  display.classList.remove('grid');
+  cards.classList.add('list');
+  cards.classList.remove('grid');
 }

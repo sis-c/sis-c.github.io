@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta
+      name="description"
+      content="This is a practice site for the Web Development and Design course 230 for Brigham Young University Idaho."
+    />
+    <title>Owasso Chamber of Commerce</title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+  </head>
+  <!-- Color Scheme 
+    Primary:   #E07E79
+    Secondary: #78E09E
+    Accents:   #CC0000 -->
+  <body>
+    <div id="homeGrid">
+      <header>
+        <div class="logo">
+          <picture>
+            <img
+              src="images/occlogo.png"
+              alt="Owasso Chamber of Commerce logo"
+              width="75"
+            />
+          </picture>
+          <section>
+            <h1>Owasso</h1>
+            <h2 class="c">Chamber of Commerce</h2>
+          </section>
+        </div>
+        <div class="social">
+          <a href="https://www.instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="Instagram link" />
+          </a>
+          <a href="https://www.twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="Twitter link" />
+          </a>
+        </div>
+      </header>
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Activities</a></li>
+          <li class="active"><a href="#">Join</a></li>
+          <li><a href="directory.html">Directory</a></li>
+        </ul>
+      </nav>
+      <div id="banner">
+        🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
+        p.m.<button id="close">X</button>
+      </div>
+      <div id="today"></div>
+      <main>
+        <body>
+          <form method="get" action="thanks.html">
+            <fieldset>
+              <legend>Applicant Information</legend>
+              <label class="top"
+                >Business Position Title<input
+                  type="text"
+                  name="positionTitle"
+                  minlength="7"
+                  pattern="[a-zA-Z- ]+"
+                  placeholder="Letters, hyphens, and spaces only"
+              /></label>
+              <label class="top"
+                >First Name* <input type="text" name="fname" required
+              /></label>
+              <label class="top"
+                >Last Name* <input type="text" name="lname" required
+              /></label>
+              <label class="top"
+                >Cellphone
+                <input type="tel" name="phone" placeholder="1235551234"
+              /></label>
+              <label class="top"
+                >Business Name*
+                <input type="text" name="businessName" required />
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Membership Information</legend>
+              <div>Members</div>
+              <label class="sbs"
+                ><input type="radio" name="members" value="npMember" /> NP
+                Member (No fee)</label
+              >
+              <label class="sbs"
+                ><input type="radio" name="members" value="bronze" />
+                Bronze</label
+              >
+              <label class="sbs"
+                ><input type="radio" name="members" value="silver" />
+                Silver</label
+              >
+              <label class="sbs"
+                ><input type="radio" name="members" value="gold" /> Gold</label
+              >
+              <div>Business Description</div>
+              <label class="sbs">
+                <textarea
+                  name="members"
+                  maxlength="4096S"
+                  rows="5"
+                  placeholder="Describe your business"
+                ></textarea>
+              </label>
+            </fieldset>
+
+            <input type="hidden" id="timeSubmitted" name="timeSubmitted" />
+            <input
+              type="submit"
+              value="Join the Chamber"
+              class="submitBtn"
+              onclick="submitForm();"
+            />
+          </form>
+        </body>
+      </main>
+
+      <footer>
+        &copy;<span id="copyrightyear"></span> | Spencer F. Griffin | Oklahoma |
+        BYUI Online Learning
+        <p>Last Updated: <span id="lastupdate"></span></p>
+      </footer>
+      <script src="js/navigation.js"></script>
+      <!-- <script src="js/owasso.js"></script> -->
+      <script src="js/chamberdates.js"></script>
+    </div>
+  </body>
+</html>

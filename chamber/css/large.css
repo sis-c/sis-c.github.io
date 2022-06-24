@@ -1,0 +1,44 @@
+@media only screen and (min-width: 64rem) {
+
+    header, nav, main, footer, #today {
+        max-width: 70rem;
+        margin: auto;
+    }
+
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
+
+    header img {
+        width: 100%;
+    }
+    
+    main {
+        grid-template-columns: 1fr 2fr 1fr;
+
+    }
+    .headings h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+    
+    .m {
+        letter-spacing: 1.5pt;
+        font-size: 0.9rem;
+    }
+
+    
+}
+
+/*----------- MAIN --------------*/
+
+form label.sbs {
+
+    padding: .4rem 0;
+}
+
+/*-----------cards--------------*/
+
+.list div img {
+    display: block;
+}

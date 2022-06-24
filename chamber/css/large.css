@@ -28,7 +28,12 @@
     }
     .list > section{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        min-width: 100%;
+        justify-content: space-evenly;
+    }
+    .list > img {
+        max-width: 200px;
     }
 
     

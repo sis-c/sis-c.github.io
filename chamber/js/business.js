@@ -1,5 +1,5 @@
 const chamberBiz =
-  'https://raw.githubusercontent.com/spensnerd/wdd230/master/chamber/js/data.json';
+  'data.json';
 const cards = document.querySelector('.cards');
 
 fetch(chamberBiz)

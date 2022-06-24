@@ -1,4 +1,4 @@
-const chamberBiz = 'https://sis-c.github.io/chamber/js/data.json';
+const chamberBiz ='https://raw.githubusercontent.com/sis-c/sis-c.github.io/master/chamber/js/data.json?token=GHSAT0AAAAAABVVIH7DB4UOTTDLZ4CHWXT6YVVPCSA';
 const cards = document.querySelector('#cards');
 
 fetch(chamberBiz)

@@ -237,7 +237,7 @@ section {
 	padding: 1rem;
 }
 
-.cards {
+#cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     align-items: center;
@@ -285,7 +285,7 @@ div a {
 	font-size: 0.9rem;
 }
 
-.cards img {
+#cards img {
     height: 75px;
 	max-width: 100%;
 }

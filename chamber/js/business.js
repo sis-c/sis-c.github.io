@@ -40,7 +40,7 @@ function displayMembers(member) {
 // grid or list button
 const gridbutton = document.querySelector('#grid:not(header)');
 const listbutton = document.querySelector('#list:not(header)');
-const display = document.querySelector('#menu');
+const display = document.querySelector('#cards');
 
 gridbutton.addEventListener('click', () => {
   // example using arrow function

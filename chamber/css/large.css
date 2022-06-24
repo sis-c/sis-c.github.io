@@ -35,6 +35,9 @@
     #cards .list img {
         max-width: 200px;
     }
+    #cards .list img {
+        max-width: 300px;
+    }
 
     
 }

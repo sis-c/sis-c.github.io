@@ -26,20 +26,7 @@
         letter-spacing: 1.5pt;
         font-size: 0.9rem;
     }
-    .list section{
-        display: flex;
-        flex-direction: row;
-        min-width: 100%;
-        justify-content: space-evenly;
-    }
-    #cards.list img {
-        max-width: 200px;
-    }
-    #cards.list h3 {
-        max-width: 300px;
-    }
-
-    
+     
 }
 
 /*----------- MAIN --------------*/

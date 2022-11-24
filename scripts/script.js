@@ -1,3 +1,3 @@
 const subTime = document.querySelector("#submissionTime");
 
-subTime.value = Date.now();
+subTime.value = new Date();
